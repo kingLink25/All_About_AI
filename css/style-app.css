@@ -1,0 +1,143 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+body{
+    font-size:18px;
+    font-family:Arial;
+}
+
+
+h1{
+    color:rgba(20, 71, 240, 0.63);
+    font-family:Arial;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+h2{
+    color:rgba(20, 71, 240, 0.63);
+    font-family:Arial;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+
+
+    
+.main-text {
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.main {
+    margin-bottom: 20px;
+    font-size: 23px;
+    color: black;
+    text-align: left;
+    margin-left: 200px
+}
+
+.mai {
+    margin-bottom: 20px;
+    font-size: 23px;
+    color: black;
+    text-align: left;
+    margin-left: 200px
+}
+
+.author-text{
+    font-size:22px;
+    float: left;
+    margin-top:30px;
+    margin-left:10px;
+}
+
+
+
+.blog-post {
+    width: 75%;
+    float: left;
+    padding-right: 20px;
+    position:relative;
+}
+
+.other-post {
+    width: 25%;
+    float: left;
+}
+
+html {
+    background-image: linear-gradient(rgba(167, 89, 245, 0.47), rgba(181, 117, 245, 0.16));
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+.other {
+    margin-bottom: 40px
+}
+
+
+
+.bnt:link, 
+.bnt:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    color: #fff;
+    text-align: center;
+    width: 185px;
+    background-color: #1E90FF;
+    border: 1px solid #1E90FF;
+    margin-right: 15px;
+}
+
+.bnt:hover,
+.bnt:active {
+    background-color: #1E90FF;
+    color:darkblue;
+    border: 1px solid #ff971e
+}
+.buttons {
+    margin-top:20px;
+    margin-right: 200px;
+    text-align: right;
+}
+
+.author-box {
+    padding-top: 20px;
+}
+
+.ai-photo {
+    opacity: 0.8;
+    height: 370px;
+    width: 825px;
+}
+
+.author-box {
+    padding-top: 20px;
+    border-top: 3px solid #807575;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}

@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+ background-image: url("ai-photo-1");
+ background-color: #cccccc;
+}
+/* -------------------------------------------- */
+/* HEADER*/
+/* -------------------------------------------- */
+
+
+.ai-text-box {
+    position:absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+/* -------------------------------------------- */
+/* REUSABLE COMPONENTS*/
+/* -------------------------------------------- */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    
+}
+
+/* -------------------------------------------- */
+/* BUTTONS*/
+/* -------------------------------------------- */
+
+.btn:link, 
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    color: #fff;
+    text-align: center;
+    width: 185px;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #1E90FF;
+}
+
+.btn-adv:link,
+.btn-adv:visited {
+    background-color: #1E90FF;
+    border: 1px solid #1E90FF;
+    margin-right: 15px;
+}
+
+.btn-dadv:link, 
+.btn-dadv:visited {
+    background-color: #1E90FF;
+    border: 1px solid #1E90FF;
+    margin-right: 15px;
+}
+
+.btn-def:link, 
+.btn-def:visited {
+    background-color: #1E90FF;
+    border: 1px solid #1E90FF;
+    margin-right: 15px;
+}
+
+.btn-dom:link, 
+.btn-dom:visited {
+    background-color: #1E90FF;
+    border: 1px solid #1E90FF;
+    margin-right: 15px;
+}
+
+.btn-app:link, 
+.btn-app:visited {
+    background-color: #1E90FF;
+    border: 1px solid #1E90FF;
+    margin-right: 15px;
+}
+
+
+.btn-adv:hover,
+.btn-adv:active {
+    border: 1px solid #cf6d17;
+    color: #00008B;
+}
+
+.btn-dadv:hover, 
+.btn-dadv:active {
+    border: 1px solid #cf6d17;
+    color: #00008B;
+}
+
+.btn-def:hover, 
+.btn-def:active {
+    border: 1px solid #cf6d17;
+    color: #00008B;
+}
+
+.btn-dom:hover, 
+.btn-dom:active {
+    border: 1px solid #cf6d17;
+    color: #00008B;
+}
+
+.btn-app:hover, 
+.btn-app:active {
+    border: 1px solid #cf6d17;
+    color: #00008B;
+}
+
+.box {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.42)), url(../images/ai-photo-2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
